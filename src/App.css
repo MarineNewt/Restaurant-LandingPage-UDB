@@ -41,8 +41,10 @@
 .Menu-Section {
   height: fit-content;
   position: relative;
+  padding: 0;
+  margin: auto;
   padding-bottom: 5vw;
-  width: 100vw;
+  width: 95vw;
   text-align: center;
 }
 
