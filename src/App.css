@@ -32,6 +32,13 @@
   position: relative;
   z-index: 1;
 }
+.Menu-Section {
+  height: fit-content;
+  position: relative;
+  padding-bottom: 5vw;
+  width: 100vw;
+  text-align: center;
+}
 
 .App-SectionC {
   position: absolute;
@@ -49,8 +56,11 @@
   height: 100%;
   object-fit: cover;
   object-position: center center;
-
 }
+.mainbackground-image.two {
+  width: 50%;
+}
+
 
 .content-container {
   position: absolute;
@@ -79,6 +89,14 @@
   text-decoration: underline;
   color: white;
 }
+.center-logo.sub{
+  font-size: clamp(30px, 4vw, 1000px);
+  padding-top: 3vw;
+  background-color: transparent;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
 
 .center-sublogo{
   color: white;
@@ -90,8 +108,11 @@
 }
 
 .menubutton-section{
-  width: 100vw;
-  margin-bottom: clamp(1px, 2vw, 1000px);
+  width: 80vw;
+  min-width: 420px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
 }
 .menubutton{
   font-size: clamp(28px, 2.8vw, 1000px);
@@ -101,9 +122,36 @@
   background-color: transparent;
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: clamp(1px, 2vw, 1000px);
   width: 30%;
   height: 10vh;
 }
+.menubutton:hover{
+  border: 5px solid black;
+}
+.menubutton:focus{
+  border: 8px solid black;
+  border-style: double;
+}
+
+.menu-item{
+  font-size: clamp(14px, 2.5vw, 1000px);
+  width: 40vw;
+  height: 5vw;
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-item-name{
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+}
+.menu-item-price{
+  width: 30%;
+  text-align: left;
+  padding-left: calc(15px - 1vw);
+}
+
 
 
 @keyframes App-logo-spin {

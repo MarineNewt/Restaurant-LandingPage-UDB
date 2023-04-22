@@ -1,11 +1,13 @@
 import './App.css';
-// import { useState } from "react";
-import phom1 from './images/main3.jpg'
-import phom2 from './images/main1.jpg'
-import phom3 from './images/main2.jpg'
+import { useState } from "react";
+import phom1 from './images/main3.jpg';
+import phom2 from './images/Alt3.jpg';
+import phom3 from './images/Alt1.jpg';
+import {Menu1} from './Menu.js';
 
 function App() {
-//  const [menu, setmenu] = useState("")
+  const [menu, setmenu] = useState("0")
+  const menuHeaders = ["empty", "Bowls", "Bento", "Hot Stone", "Korean Chicken", "Sushi & Poke", "Sides"]
   return (
     <div>
       <div className="App-Section">
@@ -27,30 +29,42 @@ function App() {
       <div className="App-Section">
         <div className="App-SectionC"  >
         <img
-            className="mainbackground-image"
-            src={phom1}
+            className="mainbackground-image two"
+            src={phom2}
+            alt="Background"
+        />
+        <img
+            className="mainbackground-image two"
+            src={phom3}
             alt="Background"
         />
         <div className="content-container">
-          <div>
+          <div style={{width: '100%'}}>
             <h1 className="center-logo menu">Explore The Menu</h1>
             <div className="menubutton-section">
-              <button className="menubutton" > Bowls </button>
-              <button className="menubutton" > Bento </button>
+              <button className="menubutton" onClick={(event) => {setmenu(1)}}> Bowls </button>
+              <button className="menubutton" onClick={(event) => {setmenu(2)}}> Bento </button>
             </div>
             <div className="menubutton-section">
-              <button className="menubutton" > Hot Stone </button>
-              <button className="menubutton" > Korean Chicken </button>
+              <button className="menubutton" onClick={(event) => {setmenu(3)}}> Hot Stone </button>
+              <button className="menubutton" onClick={(event) => {setmenu(4)}}> Korean Chicken </button>
             </div>
             <div className="menubutton-section">
-              <button className="menubutton" > Sushi & Poke </button>
-              <button className="menubutton" > Side Dishes </button>
+              <button className="menubutton" onClick={(event) => {setmenu(5)}}> Sushi & Poke </button>
+              <button className="menubutton"onClick={(event) => {setmenu(6)}}> Side Dishes </button>
             </div>
           </div>
         </div>
         </div>
       </div>
-      <div className="App-Section">
+      { menu > 0 && <div>
+        <div></div>
+        <h1 className='center-logo sub'>{menuHeaders[menu]}</h1>
+        <div className="Menu-Section" style={{}}>
+          {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+        </div>
+      </div>}
+      <div className="App-Section" style={{backgroundColor: 'black'}}>
         <div className="App-SectionC" >
         <div className="content-container">
           <div>
