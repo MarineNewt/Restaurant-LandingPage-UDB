@@ -116,13 +116,14 @@
 
 .menubutton-section{
   width: 80vw;
-  min-width: 420px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .menubutton{
-  font-size: clamp(28px, 2.8vw, 1000px);
+  font-size: clamp(33px, 2.8vw, 1000px);
   font-weight: bold;
   color: white;
   border: 5px solid white;
@@ -131,6 +132,7 @@
   margin-left: 10%;
   margin-bottom: clamp(1px, 2vw, 1000px);
   width: 30%;
+  min-width: 250px;
   height: 10vh;
 }
 .menubutton:hover{
