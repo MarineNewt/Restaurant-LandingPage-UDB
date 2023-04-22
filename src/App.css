@@ -28,10 +28,16 @@
   color: #61dafb;
 }
 .App-Section {
+  background-color: antiquewhite;
   height: 100vh;
   position: relative;
   z-index: 1;
 }
+.App-Section.info{
+  border-top: 3px solid black;
+}
+
+
 .Menu-Section {
   height: fit-content;
   position: relative;
@@ -96,6 +102,7 @@
   color: black;
   margin: 0;
   text-align: center;
+  text-decoration: underline;
 }
 
 .center-sublogo{
@@ -153,6 +160,37 @@
   padding-left: calc(15px - 1vw);
 }
 
+.InfoSection{
+  width: 33.3%;
+  min-width: 300px;
+  display: block;
+  text-align: center;
+  font-size: clamp(16px, 1.8vw, 1000px);;
+}
+
+.info-image{
+  width: 23vw;
+  min-width: 150px;
+  height: 23vw;
+  min-height: 150px;
+  border: 7px solid black;
+  border-style: double;
+}
+
+.orderButton{
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: clamp(18px, 1.8vw, 1000px);
+  font-weight: bold;
+  height: 5vw;
+  min-height: 60px;
+  width: 15vw;
+  min-width: 180px;
+}
+.orderButton:hover{
+  background-color: black;
+  color: antiquewhite;
+}
 
 
 @keyframes App-logo-spin {
