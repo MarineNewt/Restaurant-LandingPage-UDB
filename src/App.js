@@ -3,7 +3,7 @@ import { useState } from "react";
 import phom1 from './images/main3.jpg';
 import phom2 from './images/Alt3.jpg';
 import phom3 from './images/Alt1.jpg';
-import {Menu1} from './Menu.js';
+import {Menu1, Menu2, Menu3, Menu4, Menu5, Menu6} from './Menu.js';
 
 function App() {
   const [menu, setmenu] = useState("0")
@@ -62,6 +62,11 @@ function App() {
         <h1 className='center-logo sub'>{menuHeaders[menu]}</h1>
         <div className="Menu-Section" style={{}}>
           {menu === 1 && Menu1.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 2 && Menu2.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 3 && Menu3.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 4 && Menu4.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 5 && Menu5.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
+          {menu === 6 && Menu6.map((item) => {return <div className="menu-item"><div style={{display: 'flex', position: 'relative'}}><p className='menu-item-name'>{item.name}</p><p className='menu-item-price'>- ${item.price}</p> {item.hot === true && <p></p>} </div></div>})}
         </div>
       </div>}
       <div className="App-Section" style={{backgroundColor: 'black'}}>
