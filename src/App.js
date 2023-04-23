@@ -103,7 +103,7 @@ function App() {
           </div>
           <div className="InfoSection">
             <br></br>
-            <iframe title="Location"className="info-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.383751477055!2d-122.3154076246606!3d47.65754098445985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015a33651a57d%3A0xa5c46e9f7ea2371c!2sU%20DupBop%20Asian%20Fusion!5e0!3m2!1sen!2sus!4v1682182822179!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="Location"className="info-image" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.383751477055!2d-122.3154076246606!3d47.65754098445985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549015a33651a57d%3A0xa5c46e9f7ea2371c!2sU%20DupBop%20Asian%20Fusion!5e0!3m2!1sen!2sus!4v1682182822179!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             <b>
               <p>4124 University Way NE, </p> 
               <p>Seattle, WA 98105</p>
