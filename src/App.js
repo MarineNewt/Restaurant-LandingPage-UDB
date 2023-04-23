@@ -56,6 +56,7 @@ function App() {
               <button className="menubutton" onClick={(event) => {setmenu(5)}}> Sushi & Poke </button>
               <button className="menubutton"onClick={(event) => {setmenu(6)}}> Side Dishes </button>
             </div>
+            <br></br>
           </div>
         </div>
         </div>

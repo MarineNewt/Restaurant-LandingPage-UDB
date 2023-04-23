@@ -45,7 +45,7 @@
   position: relative;
   padding: 0;
   margin: auto;
-  padding-bottom: 5vw;
+  padding-bottom: calc(5vw + 10px);
   width: 95vw;
   text-align: center;
 }
