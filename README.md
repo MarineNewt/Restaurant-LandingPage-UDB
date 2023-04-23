@@ -26,5 +26,5 @@ Landing Page for U DupBop Asian Fusion restaurant. Features an appealing showcas
 <br>
 
 ## Versions
-npm v9.2.0
+npm v9.2.0  
 Node v19.3.0
