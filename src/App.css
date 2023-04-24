@@ -149,10 +149,9 @@
 
 .menu-item{
     /* Consider setting bottom border */
-  font-size: clamp(18px, 2.5vw, 1000px);
+  font-size: clamp(20px, 2.5vw, 1000px);
   width: 40vw;
-  height: calc(5vw + 36px);
-  padding-bottom: 8px;
+  min-height: calc(5vw + 36px);
   display: inline-block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
