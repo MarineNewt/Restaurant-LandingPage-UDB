@@ -43,7 +43,7 @@ Menu2[8] = { name: 'Sesame Chicken Bento', price: 17, hot: false };
 Menu2[9] = { name: 'Orange Chicken Bento', price: 17, hot: false };
 
 //Hot Stone
-Menu3[0] = { name: 'Koren Style Bibimbap', price: 16, hot: false };
+Menu3[0] = { name: 'Korean Style Bibimbap', price: 16, hot: false };
 Menu3[1] = { name: 'Beef Short Ribs', price: 24, hot: false };
 Menu3[2] = { name: 'Beef Bulgogi', price: 19, hot: false };
 Menu3[3] = { name: 'Pork Bulgogi', price: 17, hot: true };
