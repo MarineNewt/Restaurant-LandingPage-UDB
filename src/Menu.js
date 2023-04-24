@@ -7,7 +7,7 @@ let Menu6 = [];
 
 //Bowls
 Menu1[0] = { name: 'Beef Bulgogi', price: 12, hot: false };
-Menu1[1] = { name: 'Pork bulgogi', price: 13, hot: true };
+Menu1[1] = { name: 'Pork Bulgogi', price: 13, hot: true };
 Menu1[2] = { name: 'Buldak', price: 13, hot: true };
 Menu1[3] = { name: 'Bibimbop', price: 13, hot: false };
 Menu1[4] = { name: 'Yakisoba', price: 13, hot: false };
@@ -20,10 +20,10 @@ Menu1[10] = { name: 'Chicken Katsu', price: 13, hot: false };
 Menu1[11] = { name: 'Chicken Curry', price: 13, hot: false };
 Menu1[12] = { name: 'Beef Curry', price: 13, hot: false };
 Menu1[13] = { name: 'Curry Katsu', price: 13, hot: false };
-Menu1[14] = { name: 'Kimchi Fried rice', price: 13, hot: false };
+Menu1[14] = { name: 'Kimchi Fried Rice', price: 13, hot: false };
 Menu1[15] = { name: 'General Tao Chicken', price: 12, hot: true };
 Menu1[16] = { name: 'Sweet & Sour Chicken', price: 12, hot: false };
-Menu1[17] = { name: 'Sesame chicken', price: 12, hot: false };
+Menu1[17] = { name: 'Sesame Chicken', price: 12, hot: false };
 Menu1[18] = { name: 'Orange Chicken', price: 12, hot: false };
 Menu1[19] = { name: 'Chicken Fried Rice', price: 12, hot: false };
 Menu1[20] = { name: 'Beef Fried Rice', price: 13, hot: false };
